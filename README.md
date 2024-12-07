@@ -2,9 +2,9 @@
 
 ## Overview
 
-This repo contains the instructions and the data you need to complete the _RewardPay coding challenge_.  This challenge is not intended to be complex, but it is an opportunity for you to showcase your understanding and applying of good development practices.
+This repo contains the instructions and the data you need to complete the _RewardPay coding challenge_. This challenge is not intended to be complex, but it is an opportunity for you to showcase your understanding and applying of good development practices.
 
-You are encouraged to treat this as a real-life project.  This typically means:
+You are encouraged to treat this as a real-life project. This typically means:
 
 - Use version control effectively
 - Include some basic documentation
@@ -12,6 +12,46 @@ You are encouraged to treat this as a real-life project.  This typically means:
 - Adhere to a naming convention
 
 Please use JavaScript of TypeScript to complete this challenge.
+
+## Prerequisits
+
+- Nodejs
+- NPM
+- TypeScript
+- jest
+
+## Setup Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/nhd2121/rewardpay-coding-challenge.git
+   ```
+
+2. Install Dependencies:
+
+   ```bash
+   cd rewardpay-coding-challenge
+   npm i
+   ```
+
+3. Running the Application
+
+   ```bash
+   npm start
+   ```
+
+4. Run the test
+   ```bash
+   npm test
+   ```
+
+## Project structure
+
+- src/: Source code
+  - index: calculation
+  - types: type
+- tests: unit testing
 
 ## The Challenge
 
@@ -69,15 +109,16 @@ and liabilities are calculated by:
 ## Formatting
 
 All currency figures must be formatted as follows:
+
 - The value is prefixed with a `$` sign
 - A comma is used to separate every 3 digits in the thousands, millions, billions, and trillions
 - Cents are removed
 
-All percentage values must be formatted to one decimal digit and be prefixed with a `%` sign.  Don't forget to multiply by 100 each time you're tasked with calculating a percentage value.
+All percentage values must be formatted to one decimal digit and be prefixed with a `%` sign. Don't forget to multiply by 100 each time you're tasked with calculating a percentage value.
 
 ## Example
 
-Below is what a typical output should look like.  Please note this is *not* the output of the challenge but a mere example.
+Below is what a typical output should look like. Please note this is _not_ the output of the challenge but a mere example.
 
 ```
 $ ./myChallenge
@@ -92,4 +133,4 @@ Working Capital Ratio: 95%
 
 If your program requires a special way to compile or a specific version of a toolset, please be sure to include that in your running instructions.
 
-__Thank you and good luck!__
+**Thank you and good luck!**
